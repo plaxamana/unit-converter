@@ -6,6 +6,8 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  color: #fff;
+  background-color: #1F2937;
 }
 
 h1 {
@@ -16,16 +18,21 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-weight: 400;
+  color: #fff;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .header {
   background-color: #6943FF;
-  color: #fff;
   padding: 34px;
 }
 
@@ -44,6 +51,13 @@ h2 {
   border-radius: 5px;
   padding: 8px 16px;
   margin: 30px 0;
+  background: transparent;
+  width: 130px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .btn {
@@ -59,7 +73,6 @@ h2 {
 }
 
 .units-container {
-  background-color: #1F2937;
   padding: 36px 25px;;
 }
 
